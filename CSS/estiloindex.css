@@ -1,58 +1,61 @@
+/*Propiedades del body*/
 .mibody{
     font-family: 'Bebas Neue', cursive;
     background-color: #e7d9d9;
     background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23000000' fill-opacity='0.3'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 
 }
+/*Propiedades del titulo*/
 .titulo{
     font-size: 125px;
     text-align: center;
     margin-top: 150px;
     font-weight: bold;
 }
+/*Navegacion*/
+/*Orden de la navegacion*/
 .navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 50px;
 }
+/*Cambiar el color cuando pasa el mouse por el link*/
 .navbar a:hover{
     color: crimson;
 }
+/*Contenedor de la navbar*/
 .contenedor{
     margin-top: 50px;
     margin-left: 250px;
     margin-right: 250px;
 }
+/*Propiedades del link*/
 .link{
     color: #000;
     text-decoration: none;
-    font-weight: bold;
 }
+/*Propiedades del icono de la navbar*/
 .icononavbar{
     height: 50px;
     width: 50px;
 }
-.iconotexto{
-    display: flex;
-    align-items: center;
-}
+/*Margen icono link*/
 .iconotexto a { 
     padding-left: 15px;
 }
-.imagenmdz{
-    height: 300px;
-    width: 300px;
-}
+/*Propiedades ubicacion*/
 .ubicacion{
     display: flex;
     flex-direction: row; 
     align-items: center;
     justify-content: center;
 }
+/*Propiedades seccion*/
 section{
     padding:200px;
 }
+/*Propiedades footer*/
 .mifooter{
     text-align: center;
 }
