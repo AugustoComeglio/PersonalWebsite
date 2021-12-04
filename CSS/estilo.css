@@ -1,4 +1,3 @@
-
 .mibody{
     font-family: 'Bebas Neue', cursive;
     background-color: #e7d9d9;
@@ -20,7 +19,6 @@
 .navbar a:hover{
     color: crimson;
 }
-
 .contenedor{
     margin-top: 50px;
     margin-left: 250px;
@@ -35,7 +33,6 @@
     height: 50px;
     width: 50px;
 }
-
 .iconotexto{
     display: flex;
     align-items: center;
@@ -56,7 +53,6 @@
 section{
     padding:200px;
 }
-    
 .mifooter{
     text-align: center;
 }
