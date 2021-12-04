@@ -51,6 +51,9 @@
     align-items: center;
     justify-content: center;
 }
+.ubicacion a:hover{
+    color: crimson;
+}
 /*Propiedades seccion*/
 section{
     padding:200px;
