@@ -1,0 +1,62 @@
+.mibody{
+    font-family: 'Special Elite', cursive;
+    background-image: url(../Imagenes/fondo1.jpg);
+}
+.titulo{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 50px;
+}
+.contenedor{
+    max-width: 10000px;
+    margin:100px;
+
+}
+.link{
+    color: #000;
+}
+
+.icononavbar{
+    height: 50px;
+    width: 50px;
+}
+section{
+    padding:275px;
+}
+.mifooter{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
