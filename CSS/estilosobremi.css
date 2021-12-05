@@ -1,0 +1,57 @@
+.mibody{
+    font-family: 'Gugi', cursive;
+    background-color:#D6EAF8;
+    background-image: url(../Imagenes/pintura1.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+/*Propiedades tituloimagen*/
+.tituloimagen{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+}
+.imguser{
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+}
+.titulo{
+    font-size: 100px;
+    text-align: left;
+    margin-top: 50px;
+    font-weight: bold;
+}
+section{
+    padding-top:50px;
+    padding-bottom:100px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.filas{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    position: center;
+}
+.link{
+    color: #000;
+    text-decoration: none;
+}
+.volver a:hover{
+    color: aqua;
+}
+/*Propiedades footer*/
+.mifooter{
+    text-align: center;
+}
