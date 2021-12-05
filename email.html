@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Augusto Comeglio</title>
+    <meta charset = "UTF-8"/>
+    <meta name = "author" content = "Augusto Comeglio">
+    <link rel="icon" href="Icons/cohete.ico">
+    <link rel="stylesheet" href="CSS/estiloemail.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+
+</head>
+<body class = "mibody">
+    <head>
+        <div class="tituloimagen">
+            <h1 class = "titulo">Enviame un mensaje</h1>
+            <img src = "Icons/email.png" alt = "Contacto" title = "Contacto" class = "imgcontacto">
+        </div>  
+    </head>
+    <section>
+        <div class="filas">
+                <form class = "miform" action="php/enviar.php" method="post">
+                    <input class = "inp" name="micorreo" type="text" id="micorreo" placeholder = "Enviando a: augustoc.98@gmai.com" readonly>
+                    <input class = "inp" name="nombre" type="text" id="nombre" placeholder = "Nombre" required>
+                    <input class = "inp" name= "correo" type="text" id="correo" placeholder = "Correo Electronico" required>
+                    <input class = "inp" name="telefono" type="text" id="telefono" placeholder = "Telefono" required>
+                    <textarea class = "tex" name="mensaje" id="mensaje" placeholder = "Escriba aqui su mensaje" required></textarea>
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <input type="submit" id="boton" class="btn btn-primary" value="ENVIAR">
+                    </div>
+                    </form>
+            <div class = "volver">
+                <a href = "index.html" class = "link"><img src="Icons/atras.png" title = "Volver" class = "icon">VOLVER</a>
+            </div> 
+        </div> 
+    </section>    
+    <footer class = "mifooter">
+        <h2>Augusto Comeglio - 2021</h2>
+    </footer>
+</body>
+</html>
