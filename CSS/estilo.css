@@ -340,7 +340,7 @@ label {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 720px) {
     .navbarindex{
         display: flex;
         flex-direction: row;
