@@ -4,9 +4,10 @@
     font-family: 'Gugi', cursive;
     background-color:#D6EAF8;
     background-image: url(../Imagenes/back1v.png);
-    background-size: 100vw 100vh;
-    margin: 0;
+    background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .tituloindex{
     font-size: 125px;
@@ -92,9 +93,10 @@
     font-family: 'Gugi', cursive;
     background-color:#D6EAF8;
     background-image: url(../Imagenes/back2v.png);
-    background-size: 100vw 100vh;
-    margin: 0;
+    background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .tituloimagencontacto{
     display: flex;
@@ -151,9 +153,10 @@
     font-family: 'Gugi', cursive;
     background-color:#D6EAF8;
     background-image: url(../Imagenes/back2v.png);
-    background-size: 100vw 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0;
+    background-size: cover;
 }
 .tituloemail{
     font-size: 100px;
@@ -217,45 +220,17 @@
 #boton:hover{
     cursor: pointer;
 }
-/*  ESTILOS GRACIAS */
-.graciasbody{
-    font-family: 'Gugi', cursive;
-    background-color:#D6EAF8;
-    background-image: url(../Imagenes/backgracias.png);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: 50px;
-  
-}
-.titulogracias{
-    font-size: 100px;
-    text-align: left;
-    margin-top: 300px;
-    font-weight: bold;
-    text-align: center;
-}
-.volvergracias{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.volvergracias a:hover{
-    color:aqua;
-}
-.footergracias{
-    padding-top: 200px;
-    text-align: center;
-}
+
 
 /*  ESTILOS SOBRE MI */
 .sobremibody{
     font-family: 'Gugi', cursive;
     background-color:#D6EAF8;
     background-image: url(../Imagenes/back2v.png);
-    background-size: 100vw 100vh;
-    margin: 0;
+    background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 /*Propiedades tituloimagen*/
@@ -383,34 +358,41 @@ label {
         font-family: 'Gugi', cursive;
         background-color:#D6EAF8;
         background-image: url(../Imagenes/back1.png);
-        background-size: 100vw 100vh;
-        margin: 0;
+        background-position: center center;
         background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     
     }
     .contactobody{
         font-family: 'Gugi', cursive;
         background-color:#D6EAF8;
         background-image: url(../Imagenes/back2.png);
-        background-size: 100vw 100vh;
-        margin: 0;
+        background-position: center center;
         background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    
     }
     .emailbody{
         font-family: 'Gugi', cursive;
         background-color:#D6EAF8;
         background-image: url(../Imagenes/back2.png);
-        background-size: 100vw 100vh;
+        background-position: center center;
+        background-repeat: no-repeat;
         background-attachment: fixed;
-        margin: 0;
+        background-size: cover;
+    
     }
     .sobremibody{
         font-family: 'Gugi', cursive;
         background-color:#D6EAF8;
         background-image: url(../Imagenes/back2.png);
-        background-size: 100vw 100vh;
-        margin: 0;
+        background-position: center center;
         background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    
     
     }
 
