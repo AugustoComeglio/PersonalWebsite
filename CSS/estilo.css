@@ -340,7 +340,7 @@ label {
 }
 
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
     .navbarindex{
         display: flex;
         flex-direction: row;
@@ -395,6 +395,10 @@ label {
     
     
     }
+
+}
+
+@media (min-width: 1150px) {
     ul.tabs{
         width: 100%;
         background: rgba(0,0,0,0.4);
@@ -402,5 +406,4 @@ label {
         display:flex;
         border-radius: 10px;
     }
-
 }
