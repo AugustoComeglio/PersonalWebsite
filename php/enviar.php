@@ -8,5 +8,5 @@
 
 
     mail($destino,"Mensaje de pagina web", $contenido);
-    header("Location:gracias.html");
+    header("Location:../gracias.html");
 ?>
