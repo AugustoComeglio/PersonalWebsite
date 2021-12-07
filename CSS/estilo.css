@@ -1,137 +1,42 @@
-/*  ESTILOS INDEX */
+
+/* PROPIEDADES DE TODOS */
 /* BODY */
-.indexbody{
+.mibody{
     font-family: 'Gugi', cursive;
     background-color:#D6EAF8;
-    background-image: url(../Imagenes/back1v.png);
+    background-image: url(../Imagenes/back1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
+
+} 
+/* TITULOS PAGINA PRINCIPAL */
 .tituloindex{
     font-size: 125px;
     text-align: center;
     margin-top: 50px;
     font-weight: bold;
 }
-.contenedornavbar{
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-.navbarindex{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 50px;
-}
-.icononavbar{
-    height: 50px;
-    width: 50px;
-}
-.iconotexto{
-    padding-bottom: 15px;
-    text-align: center;
-    flex-direction: row;
-}
-.botonindex{
-    display: block;
-    text-align: center;
-    color:black;
-    background-color: darksalmon;
-    text-decoration: none;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 'Gugi', cursive;
-    margin-bottom: 20px;
-    padding: 15px 40px;
-    border-radius: 10px;
-}
-.indexseccion{
-    padding-top:50px;
-    padding-bottom:100px;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-.imagenseccionindex{
-     display: flex;
-     flex-direction: column; 
-     align-items: center;
-     justify-content: center;
-}
-.ubiseccionindex{
+/* TITULOS SUBPAGINAS */
+.tituloimagen{
     display: flex;
     flex-direction: row; 
     align-items: center;
     justify-content: center;
 }
-.imagenindex{
-    width:300px;
-    height:300px;
-    border-radius:150px;
-    padding-bottom: 25px;
-}
-.link{
-    color: #000;
-    text-decoration: none;  
-}
-.iconotexto a:hover{
-    color:darksalmon;
-}
-.ubiseccionindex a:hover{
-    color:darksalmon;
-}
-.mifooter{
-    position: absolute;
-    width: 100%;
-    text-align: center;
-}
-
-/*  ESTILOS CONTACTO */
-.contactobody{
-    font-family: 'Gugi', cursive;
-    background-color:#D6EAF8;
-    background-image: url(../Imagenes/back2v.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-.tituloimagencontacto{
-    display: flex;
-    flex-direction: row; 
-    align-items: center;
-    justify-content: center;
-}
-.titulocontacto{
+.titulo{
     font-size: 100px;
     text-align: center;
     margin-top: 30px;
     font-weight: bold;
 }
-.imgcontacto{
+.imgtitulo{
     height: 100px;
     width: 100px;
 }
-.imgcontacto img{
-    padding-top: 40px;
-}
-.icon{
-    height: 100px;
-    width: 100px;
-    padding: 20px;
-}
-.iconos{
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center;
-}
-.filascontactos{
-    padding: 10px;
-}
-.volvercontacto{
+/* VOLVER*/
+.volver{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -144,44 +49,126 @@
     margin-left: 60px;
     margin-bottom: 10px;
 }
-.volvercontacto a:hover{
+.volver a:hover{
     color: darksalmon;
 }
-
-/*  ESTILOS EMAIL */
-.emailbody{
-    font-family: 'Gugi', cursive;
-    background-color:#D6EAF8;
-    background-image: url(../Imagenes/back2v.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-.tituloemail{
-    font-size: 100px;
+/* FOOTER */
+.footer {
+    padding: 1.25rem;
     text-align: center;
-    margin-top: 30px;
-    font-weight: bold;
+    font-weight: 300;
+    position: relative;
+    bottom: 0px;
 }
-.volveremail{
+.footer p {
+    color:black;
+    margin: 0;
+}
+/* LINKS */
+.link{
+    color: #000;
+    text-decoration: none;  
+}
+/* FIN PROPIEDADES DE TODOS */
+
+/* PROPIEDADE DE INDEX */
+/* CONTENEDOR DE LA NAVBAR */
+.contenedornavbar{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+/* NAVBAR ORDEN */
+.navbarindex{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    font-size: 50px;
+}
+/* ICONO DE LA NAVBAR */
+.icononavbar{
+    height: 50px;
+    width: 50px;
+}
+/* ICONO TEXTO DE LA NAVBAR */
+.iconotexto{
+    padding: 0px 100px;
+    text-align: center;
+}
+.iconotexto a:hover{
+    color:darksalmon;
+}
+
+/* TAMAÑO SECCION EN INDEX CONTIENE IMAGEN Y UBI */
+.indexseccion{
+    padding-top:50px;
+    padding-bottom:100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+/* IMAGEN DE LA SECCION INDEX */
+.imagenseccionindex{
+    display: flex;
     align-items: center;
     justify-content: center;
 }
-.volveremail a:hover{
+.imagenindex{
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    padding-bottom: 25px;
+}
+/* ICONO Y TEXTO DE UBICACION  DE LA SECCION INDEX */
+.ubiseccionindex{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+}
+.ubiseccionindex a:hover{
     color:darksalmon;
 }
+/* FIN PROPIEDADE DE INDEX */
+
+
+/* PROPIEDADE DE CONTACTO */ 
+/* TAMAÑO DE LOS ICONOS */
+.icon{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+/* UBICACION DE LOS ICONOS COLUMNAS */
+.iconos{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+/* UBICACION DE LOS ICONOS FILAS */
+.filascontactos{
+    padding: 10px;
+}
+/* FIN PROPIEDADE DE CONTACTO */
+
+/* PROPIEDADE DE EMAIL */ /* FIN PROPIEDADE DE EMAIL */
+/* FORMATO FOMULARIO */
 .miform{
-    width: 600px;
+    width: 800px;
     margin: auto;
     background: rgba(0,0,0,0.2);
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
 }
+/* FORMATO DE LOS INPUTS */
 .inp{
     width: 100%;
     margin-bottom: 20px;
@@ -190,7 +177,8 @@
     font-size: 14px;
     background-color:aliceblue;
 }
-.tex{
+/* FORMATO DEL TEXTAREA */
+.texta{
     width: 100%;
     margin-bottom: 20px;
     padding: 10px;
@@ -201,100 +189,64 @@
     max-width: 100%;
     background-color:aliceblue;
 }
-.botonubi{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
+/* FORMATO DEL BOTON */
 .botomform{
     font-family: 'Gugi', cursive;
     background-color: darksalmon;
     font-size: 14px;
     border-radius: 10px;
     padding: 20px 40px;
-    margin-bottom: 20px;
-    width: 100%;
+    width: 80%;
 }
-
 #boton:hover{
     cursor: pointer;
 }
+/* FIN PROPIEDADE DE EMAIL */
 
-
-/*  ESTILOS SOBRE MI */
-.sobremibody{
-    font-family: 'Gugi', cursive;
-    background-color:#D6EAF8;
-    background-image: url(../Imagenes/back2v.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-}
-/*Propiedades tituloimagen*/
-.tituloimagensobremi{
-    display: flex;
-    flex-direction: row; 
-    align-items: center;
-    justify-content: center;
-}
-.imguser{
-    height: 100px;
-    width: 100px;
-}
-.titulosobremi{
-    font-size: 100px;
-    text-align: left;
-    margin-top: 50px;
-    font-weight: bold;
-}
-.volversobremi{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-}
-.volversobremi a:hover{
-    color: darksalmon;
-}
+/* PROPIEDADE DE SOBRE MI *//* FIN PROPIEDADE DE SOBRE MI */
+/*FORMATO CONTENEDOR DE INFO*/
 .infosobremi{
     margin-left: 200px;
     margin-right: 200px;
 }
-
-
+/*FORMATO DE LA BARRA*/
 .wrap{
 	max-width: 100%;
 	margin: 30px auto;
 }
-
+/*FORMATO DE LA LISTA DE LA BARRA*/
 ul.tabs{
-	width: 100%;
-	background: rgba(0,0,0,0.4);
-	list-style: none;
-	display:grid;
+    width: 100%;
+    
+    background: rgba(0,0,0,0.4);
+    list-style: none;
+    display:flex;
+    padding-left: 0;
     border-radius: 10px;
 }
+/*FORMATO DE LOS ELEMENTOS DE LA LISTA DE LA BARRA*/
 ul.tabs li a{
 	color: aliceblue;
 	text-decoration: none;
 	font-size: 20px;
-	text-align: center;
+    text-align: center;
     font-family: 'Gugi', cursive;
 	display: block;
 	padding: 20px 20px;
     border-radius: 10px;
-
+    height: 100%;
 }
+
+/*CLASE ACTIVA PARA QUE SALGA EN ESE COLOR CUAL ESTA ACTIVA EN LA BARRA*/
 .active{
 	background: darksalmon;
 }
+
 ul.tabs li a .tab-text{
 	margin-left: 0px;
 }
+
+/*FORMATO DE LAS SECCIONES DEL TEXTO*/
 .secciones{
 	width: 100%;
 	background:aliceblue;
@@ -307,103 +259,38 @@ ul.tabs li a .tab-text{
 	text-align: justify;
 }
 
-label {
-    padding-right: 20px;
-
-}
-.barra{
-    width: 200px;
-
-}
 
 
-@media screen and (max-width: 700px){
-	ul.tabs li{
-		width: none;
-		flex-basis: 0;
-		flex-grow: 1;
-	}
-}
 
-@media screen and (max-width: 450px){
-	ul.tabs li a{
-		padding: 15px 0px;
-	}
-
-	ul.tabs li a .tab-text{
-		display: none;
-	}
-
-	.secciones article{
-		padding: 15px;
-	}
-}
-
-
-@media (min-width: 768px) {
-    .navbarindex{
+/*RESPONSIVE NAVBAR INDEX*/
+@media (max-width: 1400px){
+	.navbarindex{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         font-size: 50px;
     }
-    .iconotexto{
-        padding: 0px 100px;
-        text-align: center;
+}
+@media (max-width: 902px){
+	.navbarindex{
+        display: flex;
+        flex-direction: unset;
+        justify-content: center;
+        font-size: 50px;
     }
-    .volvercontacto a:hover{
-        color: darksalmon;
-    }
-    .indexbody{
-        font-family: 'Gugi', cursive;
-        background-color:#D6EAF8;
-        background-image: url(../Imagenes/back1.png);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    
-    }
-    .contactobody{
-        font-family: 'Gugi', cursive;
-        background-color:#D6EAF8;
-        background-image: url(../Imagenes/back2.png);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    
-    }
-    .emailbody{
-        font-family: 'Gugi', cursive;
-        background-color:#D6EAF8;
-        background-image: url(../Imagenes/back2.png);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    
-    }
-    .sobremibody{
-        font-family: 'Gugi', cursive;
-        background-color:#D6EAF8;
-        background-image: url(../Imagenes/back2.png);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    
-    
-    }
-
 }
 
-@media (min-width: 1150px) {
-    ul.tabs{
+/*RESPONSIVE TABLA DE SOBRE MI*/
+@media (max-width: 1120px){
+	ul.tabs{
         width: 100%;
         background: rgba(0,0,0,0.4);
         list-style: none;
-        display:flex;
+        display: grid;
+        padding-left: 0;
         border-radius: 10px;
     }
 }
+
+
+

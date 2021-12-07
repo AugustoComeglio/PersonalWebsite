@@ -10,17 +10,18 @@
     <link rel="stylesheet" href="css/estilo.css">
 
     <!-- Referencias fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
 
 </head>
 
-<body class = "emailbody">
+<body class = "mibody">
 
     <header>
-        <div class="tituloimagenemail">
-            <h1 class = "tituloemail">Enviame un mensaje <img src = "Icons/email.png" alt = "Contacto" title = "Contacto" class = "imgcontacto"></h1> 
+        <div class="tituloimagen">
+            <h1 class = "titulo">Enviame un mensaje <img src = "Icons/email.png" alt = "Contacto" title = "Contacto" class = "imgtitulo"></h1> 
         </div>  
     </header>
 
@@ -30,20 +31,19 @@
             <input type="text" name="nombre" class = "inp" placeholder = "Nombre" required>
             <input type="email" name= "correo" class = "inp" placeholder = "Correo Electronico" required>
             <input type="text" name="telefono" class = "inp" placeholder = "Telefono" required>
-            <textarea  name="mensaje" placeholder = "Escriba aqui su mensaje" class="tex" required></textarea>
+            <textarea  name="mensaje" placeholder = "Escriba aqui su mensaje" class="texta" required></textarea>
             <input type="submit" value="ENVIAR" class = "botomform" id="boton">
         </form>
-        
-
-        <div class = "volveremail">
-            <a href = "contacto.html"><img src="Icons/atras.png" title = "Volver" class = "iconvolver"></a>
-            <a href = "contacto.html" class = "link">VOLVER</a>
-        </div> 
 
     </section> 
 
-    <footer class = "mifooter">
-        <h2>Augusto Comeglio - 2021</h2>
+    <div class = "volver">
+        <a href = "contacto.html"><img src="Icons/atras.png" title = "Volver" class = "iconvolver"></a>
+        <a href = "contacto.html" class = "link">VOLVER</a>
+    </div> 
+
+    <footer class="footer">
+        <p>Augusto Comeglio - 2021</p>
     </footer>
 
 </body>
