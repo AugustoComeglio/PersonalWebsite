@@ -17,6 +17,7 @@
     text-align: center;
     margin-top: 50px;
     font-weight: bold;
+    text-shadow: 0px 0px 10px grey; 
 }
 /* TITULOS SUBPAGINAS */
 .tituloimagen{
@@ -30,6 +31,7 @@
     text-align: center;
     margin-top: 30px;
     font-weight: bold;
+    text-shadow: 0px 0px 10px grey; 
 }
 .imgtitulo{
     height: 100px;
@@ -41,6 +43,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    text-shadow: 0px 0px 10px grey; 
 }
 .iconvolver{
     height: 100px;
@@ -94,6 +97,7 @@
 .iconotexto{
     padding: 0px 100px;
     text-align: center;
+    text-shadow: 0px 0px 10px grey; 
 }
 .iconotexto a:hover{
     color:darksalmon;
@@ -124,6 +128,7 @@
     flex-direction: row; 
     align-items: center;
     justify-content: center;
+    text-shadow: 0px 0px 10px grey; 
 }
 .ubiseccionindex a:hover{
     color:darksalmon;
@@ -226,12 +231,12 @@
 /*FORMATO DE LA LISTA DE LA BARRA*/
 ul.tabs{
     width: 100%;
-    
     background: rgba(0,0,0,0.4);
     list-style: none;
     display:flex;
     padding-left: 0;
     border-radius: 10px;
+    box-shadow: 0px 0px 15px 1px #000;
 }
 /*FORMATO DE LOS ELEMENTOS DE LA LISTA DE LA BARRA*/
 ul.tabs li a{
@@ -249,6 +254,8 @@ ul.tabs li a{
 /*CLASE ACTIVA PARA QUE SALGA EN ESE COLOR CUAL ESTA ACTIVA EN LA BARRA*/
 .active{
 	background: darksalmon;
+    box-shadow: 0px 0px 10px 0px #000;
+}
 }
 
 ul.tabs li a .tab-text{
@@ -260,6 +267,7 @@ ul.tabs li a .tab-text{
 	width: 100%;
 	background:aliceblue;
     border-radius: 10px;
+    box-shadow: 0px 0px 15px 1px #000;
 }
 .secciones article{
 	padding: 25px;
