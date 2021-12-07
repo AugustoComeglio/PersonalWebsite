@@ -259,6 +259,15 @@ ul.tabs li a .tab-text{
 	text-align: justify;
 }
 
+/*TEXTO DE LA BARRA*/
+
+/*BARRA DE PORSENTAJE*/
+
+.barra{
+    width: 100%;
+    border: none;
+    height: 15px;
+}
 
 
 
