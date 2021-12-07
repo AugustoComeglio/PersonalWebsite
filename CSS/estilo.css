@@ -167,6 +167,7 @@
     flex-direction: column; 
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 0px 15px 1px #000;
 }
 /* FORMATO DE LOS INPUTS */
 .inp{
@@ -178,6 +179,7 @@
     background-color:aliceblue;
     border-radius:10px;
     border: none;
+    box-shadow: 0px 0px 10px 1px #000;
 }
 /* FORMATO DEL TEXTAREA */
 .texta{
@@ -192,6 +194,7 @@
     background-color:aliceblue;
     border-radius:10px;
     border: none;
+    box-shadow: 0px 0px 10px 1px #000;
 }
 /* FORMATO DEL BOTON */
 .botomform{
@@ -202,6 +205,7 @@
     padding: 20px 40px;
     width: 80%;
     border: none;
+    box-shadow: 0px 0px 10px 1px #000;
 }
 #boton:hover{
     cursor: pointer;
