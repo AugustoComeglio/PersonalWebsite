@@ -176,6 +176,8 @@
     box-sizing: border-box;
     font-size: 14px;
     background-color:aliceblue;
+    border-radius:10px;
+    border: none;
 }
 /* FORMATO DEL TEXTAREA */
 .texta{
@@ -188,6 +190,8 @@
     max-height: 200px;
     max-width: 100%;
     background-color:aliceblue;
+    border-radius:10px;
+    border: none;
 }
 /* FORMATO DEL BOTON */
 .botomform{
@@ -197,6 +201,7 @@
     border-radius: 10px;
     padding: 20px 40px;
     width: 80%;
+    border: none;
 }
 #boton:hover{
     cursor: pointer;
