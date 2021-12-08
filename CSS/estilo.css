@@ -185,6 +185,7 @@
     border-radius:10px;
     border: none;
     box-shadow: 0px 0px 10px 1px #000;
+    outline: none;
 }
 /* FORMATO DEL TEXTAREA */
 .texta{
@@ -200,6 +201,7 @@
     border-radius:10px;
     border: none;
     box-shadow: 0px 0px 10px 1px #000;
+    outline: none;
 }
 /* FORMATO DEL BOTON */
 .botomform{
