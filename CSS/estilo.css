@@ -3,12 +3,12 @@
 /* BODY */
 .mibody{
     font-family: 'Gugi', cursive;
-    background-color:#D6EAF8;
-    background-image: url(../Imagenes/back1.png);
+    background-color:#fef6e4;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    color:#001858;
 
 } 
 /* TITULOS PAGINA PRINCIPAL */
@@ -31,7 +31,8 @@
     text-align: center;
     margin-top: 30px;
     font-weight: bold;
-    text-shadow: 0px 0px 10px grey; 
+    text-shadow: 0px 0px 10px grey;
+    color:#001858; 
 }
 .imgtitulo{
     height: 100px;
@@ -44,6 +45,7 @@
     align-items: center;
     justify-content: center;
     text-shadow: 0px 0px 10px grey; 
+    color:#001858;
 }
 .iconvolver{
     height: 100px;
@@ -53,7 +55,7 @@
     margin-bottom: 10px;
 }
 .volver a:hover{
-    color: darksalmon;
+    color: #f582ae;
 }
 /* FOOTER */
 .footer {
@@ -62,14 +64,15 @@
     font-weight: 300;
     position: relative;
     bottom: 0px;
+    color:#001858;
 }
 .footer p {
-    color:black;
+    color:#001858;
     margin: 0;
 }
 /* LINKS */
 .link{
-    color: #000;
+    color:#001858;
     text-decoration: none;  
 }
 /* FIN PROPIEDADES DE TODOS */
@@ -87,6 +90,7 @@
     flex-direction: row;
     justify-content: center;
     font-size: 50px;
+    
 }
 /* ICONO DE LA NAVBAR */
 .icononavbar{
@@ -99,8 +103,9 @@
     text-align: center;
     text-shadow: 0px 0px 10px grey; 
 }
+
 .iconotexto a:hover{
-    color:darksalmon;
+    color:#f582ae;
 }
 
 /* TAMAÑO SECCION EN INDEX CONTIENE IMAGEN Y UBI */
@@ -131,7 +136,7 @@
     text-shadow: 0px 0px 10px grey; 
 }
 .ubiseccionindex a:hover{
-    color:darksalmon;
+    color:#f582ae;
 }
 /* FIN PROPIEDADE DE INDEX */
 
@@ -162,7 +167,7 @@
 .miform{
     width: 800px;
     margin: auto;
-    background: rgba(0,0,0,0.2);
+    background: #8bd3dd;
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
@@ -186,6 +191,7 @@
     border: none;
     box-shadow: 0px 0px 10px 1px #000;
     outline: none;
+    color:#001858;
 }
 /* FORMATO DEL TEXTAREA */
 .texta{
@@ -202,17 +208,20 @@
     border: none;
     box-shadow: 0px 0px 10px 1px #000;
     outline: none;
+    color:#001858;
 }
 /* FORMATO DEL BOTON */
 .botomform{
     font-family: 'Gugi', cursive;
-    background-color: darksalmon;
+    background-color: #f582ae;
     font-size: 14px;
     border-radius: 10px;
     padding: 20px 40px;
     width: 80%;
     border: none;
     box-shadow: 0px 0px 10px 1px #000;
+    color:#001858;
+    
 }
 #boton:hover{
     cursor: pointer;
@@ -233,7 +242,7 @@
 /*FORMATO DE LA LISTA DE LA BARRA*/
 ul.tabs{
     width: 100%;
-    background: rgba(0,0,0,0.4);
+    background: #8bd3dd;
     list-style: none;
     display:flex;
     padding-left: 0;
@@ -242,7 +251,7 @@ ul.tabs{
 }
 /*FORMATO DE LOS ELEMENTOS DE LA LISTA DE LA BARRA*/
 ul.tabs li a{
-	color: aliceblue;
+	color:#001858;
 	text-decoration: none;
 	font-size: 20px;
     text-align: center;
@@ -255,7 +264,7 @@ ul.tabs li a{
 
 /*CLASE ACTIVA PARA QUE SALGA EN ESE COLOR CUAL ESTA ACTIVA EN LA BARRA*/
 .active{
-	background: darksalmon;
+	background: #f582ae;
     box-shadow: 0px 0px 10px 0px #000;
 }
 }
@@ -267,7 +276,7 @@ ul.tabs li a .tab-text{
 /*FORMATO DE LAS SECCIONES DEL TEXTO*/
 .secciones{
 	width: 100%;
-	background:aliceblue;
+	background:#f3d2c1;
     border-radius: 10px;
     box-shadow: 0px 0px 15px 1px #000;
 }
@@ -312,7 +321,7 @@ ul.tabs li a .tab-text{
 @media (max-width: 1120px){
 	ul.tabs{
         width: 100%;
-        background: rgba(0,0,0,0.4);
+        background: #8bd3dd;
         list-style: none;
         display: grid;
         padding-left: 0;
