@@ -4,11 +4,10 @@
 .mibody{
     font-family: 'Gugi', cursive;
     background-color:#fef6e4;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     color:#001858;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom:2em;
 
 } 
 /* TITULOS PAGINA PRINCIPAL */
@@ -59,16 +58,18 @@
 }
 /* FOOTER */
 .footer {
-    padding: 1.25rem;
+    width: 100%;
+    padding: 1em 0;
+    padding-top: 0px;
     text-align: center;
-    font-weight: 300;
-    position: relative;
+    position: absolute;
     bottom: 0px;
-    color:#001858;
+
+    
+
 }
 .footer p {
     color:#001858;
-    margin: 0;
 }
 /* LINKS */
 .link{
