@@ -261,13 +261,22 @@ ul.tabs li a{
     border-radius: 10px;
     height: 100%;
 }
+/* TITULO ARTICULO */
+article h1{
+    font-weight: bold;
+}
+/* COLOR DEL LINK */
+.proexp a:hover{
+    color: #f582ae;
+}
+
 
 /*CLASE ACTIVA PARA QUE SALGA EN ESE COLOR CUAL ESTA ACTIVA EN LA BARRA*/
 .active{
 	background: #f582ae;
     box-shadow: 0px 0px 10px 0px #000;
 }
-}
+
 
 ul.tabs li a .tab-text{
 	margin-left: 0px;
@@ -287,10 +296,8 @@ ul.tabs li a .tab-text{
 	text-align: justify;
 }
 
-/*TEXTO DE LA BARRA*/
 
 /*BARRA DE PORSENTAJE*/
-
 .barra{
     width: 100%;
     border: none;
