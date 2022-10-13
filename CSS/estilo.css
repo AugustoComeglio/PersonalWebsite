@@ -299,6 +299,13 @@ article h1{
     color: #f582ae;
 }
 
+.experiencia a:hover{
+    color: #f582ae;
+}
+
+.secciones a:hover{
+    color: #f582ae;
+}
 
 /*CLASE ACTIVA PARA QUE SALGA EN ESE COLOR CUAL ESTA ACTIVA EN LA BARRA*/
 .active{
@@ -349,6 +356,13 @@ ul.tabs li a .tab-text{
 }
 .progresobarrai{
     width: 50%;
+    height: 15px;
+    border-radius: 10px;
+    background-color:#f582ae;
+
+}
+.progresobarrait{
+    width: 25%;
     height: 15px;
     border-radius: 10px;
     background-color:#f582ae;
